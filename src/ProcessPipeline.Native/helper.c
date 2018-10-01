@@ -3,13 +3,8 @@
 #include <stdio.h>
 #include "lib.h"
 
-int ForkAndExecute()
+int main()
 {
-    return 1;
-}
-
-int internal()
-{
-    printf("%d", 1);
-    return 1;
+    printf("Hello, world.");
+    return 0;
 }
